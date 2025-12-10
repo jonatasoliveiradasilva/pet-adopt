@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  align-items: center;
+  background-color: #1F2937;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+}
+.cabecalho .logo-pet-adopt {
+  height: 85px;
+}
+.cabecalho .botao {
+  background-color: #F97415;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  padding: 5px 10px;
+}
+
+.secao-pets {
+  padding: 30px 15px;
+}
+.secao-pets article {
+  align-items: center;
+  display: flex;
+  height: 50vh;
+  justify-content: space-between;
+}
+.secao-pets article .informacoes-pet {
+  padding: 50px 50px 50px 15px;
+  width: 470px;
+}
+.secao-pets article .informacoes-pet #nome-pet {
+  color: #F97415;
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.secao-pets article .informacoes-pet .descricao-pet {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.secao-pets article .scooby {
+  border-radius: 10px;
+  width: 500px;
+}
+.secao-pets .navegacao-pets {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 15px;
+}
+.secao-pets .navegacao-pets a .imagem-pet {
+  border-radius: 100%;
+  width: 175px;
+}
+
+.secao-formulario {
+  background-color: #F59F0B;
+  height: 85vh;
+  padding: 30px 15px;
+}
+.secao-formulario div {
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.secao-formulario div h2 {
+  padding: 10px 0 0 0;
+}
+.secao-formulario div p {
+  margin-top: 10px;
+}
+.secao-formulario form {
+  color: #FFFFFF;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  flex-direction: column;
+  padding: 30px 15px;
+}
+.secao-formulario form label {
+  font-size: 18px;
+}
+.secao-formulario form input {
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+}
+.secao-formulario form input::-moz-placeholder {
+  font-size: 16px;
+}
+.secao-formulario form input::placeholder {
+  font-size: 16px;
+}
+.secao-formulario form button {
+  background-color: #F97415;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+
+.rodape {
+  background-color: #4B5563;
+  padding: 15px;
+}
+.rodape div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.rodape div .logo-pet-adopt {
+  height: 85px;
+}
+.rodape div p {
+  color: #9CA3AF;
+  font-family: "Poppins", sans-serif;
+  width: 560px;
+}
+.rodape div .redes-sociais {
+  display: flex;
+  gap: 15px;
+}
+.rodape p {
+  color: #9CA3AF;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
