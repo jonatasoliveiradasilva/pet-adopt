@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>PetAdopt</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img
+                src="assets/logo-pet-adopt.png"
+                class="logo-pet-adopt"
+                alt="Logo PetAdopt"
+            />
+            <button class="botao">Adote</button>
+        </header>
+        <main>
+            <section class="secao-pets">
+                <article>
+                    <div class="informacoes-pet">
+                        <h1 id="nome-pet">Scooby</h1>
+                        <p class="descricao-pet">Scooby é um cão leal e protetor.</p>
+                        <p class="descricao-pet">Ama crianças e é muito obediente.</p>
+                        <p class="descricao-pet">Precisa de espaço para correr e brincar.</p>
+                        <p class="descricao-pet">Ideal para famílias ativas.</p>
+                    </div>
+                    <img
+                        class="scooby"
+                        id="imagem-pet"
+                        src="assets/scooby.png"
+                        alt="Scooby"
+                    />
+                </article>
+                <nav class="navegacao-pets">
+                    <a href="#">
+                        <img
+                            class="imagem-pet"
+                            src="assets/scooby.png"
+                            alt="Scooby"
+                            title="Scooby"
+                        />
+                    </a>
+                    <a href="#">
+                        <img
+                            class="imagem-pet"
+                            src="assets/pantera.png"
+                            alt="Pantera"
+                            title="Pantera"
+                        />
+                    </a>
+                    <a href="#">
+                        <img
+                            class="imagem-pet"
+                            src="assets/thor.png"
+                            alt="Thor"
+                            title="Thor"
+                        />
+                    </a>
+                    <a href="#">
+                        <img
+                            class="imagem-pet"
+                            src="assets/garfield.png"
+                            alt="Garfield"
+                            title="Garfield"
+                        />
+                    </a>
+                </nav>
+            </section>
+            <section class="secao-formulario">
+                <div>
+                    <h2>Pronto para transformar uma vida?</h2>
+                    <p>
+                        Junte-se a centenas de famílias que já encontraram seus melhores
+                        amigos atráves do <strong>PetAdopt</strong>.
+                    </p>
+                </div>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input
+                        type="text"
+                        name="nome"
+                        id="nome"
+                        placeholder="Digite o seu nome"
+                        required
+                    />
+                    <label for="telefone">Telefone:</label>
+                    <input
+                        type="tel"
+                        name="telefone"
+                        id="telefone"
+                        placeholder="Digite o número do seu telefone"
+                        required
+                    />
+                    <label for="email">E-mail:</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Digite o seu e-mail"
+                        required
+                    />
+                    <label for="nome-animal">Nome do Animal:</label>
+                    <input
+                        type="text"
+                        name="nome-animal"
+                        id="nome-animal"
+                        placeholder="Digite o nome do animal que você quer adotar"
+                        required
+                    />
+                    <button type="submit">Comece a sua jornada</button>
+                </form>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div>
+                <img
+                    class="logo-pet-adopt"
+                    src="assets/logo-pet-adopt.png"
+                    alt="Logo PetAdopt"
+                />
+                <p>
+                    Nossa missão é conectar pets abandonados com famílias amorosas,
+                    transformando vidas atráves do amor incondicional.
+                </p>
+                <div class="redes-sociais">
+                    <a href="#">
+                        <img
+                            class="logo-facebook"
+                            src="assets/facebook.png"
+                            alt="Facebook"
+                        />
+                    </a>
+                    <a href="#">
+                        <img
+                            class="logo-instagram"
+                            src="assets/instagram.png"
+                            alt="Instagram"
+                        />
+                    </a>
+                </div>
+            </div>
+            <p>&copy; 2025 PetAdopt. Desenvolvido com ❤️ para ajudar os nossos amigos peludinhos.</p>
+        </footer>
+    </body>
+</html>
